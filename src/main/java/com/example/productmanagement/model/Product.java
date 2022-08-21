@@ -54,4 +54,16 @@ public class Product {
     public void setMaker(String maker) {
         this.maker = maker;
     }
+
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                ", description='" + description + '\'' +
+                ", maker='" + maker + '\'' +
+                '}';
+    }
 }

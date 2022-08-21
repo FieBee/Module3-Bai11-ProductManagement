@@ -39,7 +39,7 @@ public class ProductServiceImpl implements ProductService{
 
     public Product findByName(String name) {
         for (int i = 0; i < products.size(); i++) {
-            if (products.get(i).getName().equals(name)){
+            if (products.get(i).getName().equalsIgnoreCase(name)){
                 return products.get(i);
             }
         }

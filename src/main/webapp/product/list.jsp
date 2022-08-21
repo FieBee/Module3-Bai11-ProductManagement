@@ -17,16 +17,9 @@
         <a href="/products?action=create">Create new product</a>
     </p>
 
-    <form action="/product/find.jsp" method="get">
-        <p>
-            <p>Find product by name</p>
-            <input type="text" name="name" id = "name">
-            <a href="/products?action=find">Search</a>
-
-<%--            <input type="submit" value="Search">--%>
-<%--            <button value="">Search</button>--%>
-        </p>
-    </form>
+    <p>
+        <a href="/products?action=find">Find product by name</a>
+    </p>
 
 
     <br>
